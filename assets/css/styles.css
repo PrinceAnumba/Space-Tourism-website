@@ -1,0 +1,107 @@
+body {
+  background-color: black;
+  color: white;
+  background-image: url('../home/background-home-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: 1600px 900px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 18px;
+}
+
+/* Typography */
+h1 {
+  font-family: 'Bellefair', serif;
+  font-size: 150px;
+}
+
+h2 {
+  font-family: 'Bellefair', serif;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: 'Bellefair', serif;
+  font-size: 56px;
+}
+
+h4 {
+  font-family: 'Bellefair', serif;
+  font-size: 32px;
+}
+
+h5 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 28px;
+  letter-spacing: 4.75;
+}
+
+.nav-text {
+  font-family: 'Barlow', sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7;
+  color: white;
+  text-decoration: none;
+}
+
+.subheading2 {
+  font-family: 'Barlow', sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.35;
+}
+/* Typography */
+
+/* Nav Bar */
+nav {
+  /* line-height: 80px; */
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-gap: 20px;
+  padding-top: 50px;
+
+}
+
+.nav-links {
+  margin-right: 10px;
+  top: 40px;
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(81.5485px);
+
+}
+
+hr {
+  position: absolute;
+  width: 24%;
+  height: 1px;
+  left: 20%;
+  top: 78px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+nav div ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+nav div ul {
+  float: right;
+  margin-right: 20%;
+}
+
+.nav-logo {
+  padding-left: 5%;
+  width: 10%px;
+}
+
+/* Nav Bar */
+
+
+
+.right-bg {
+
+}
+.Nav-items {
+  margin: 50px 20px auto 20px;
+}
