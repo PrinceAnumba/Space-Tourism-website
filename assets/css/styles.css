@@ -16,7 +16,8 @@ h1 {
   line-height: 172px;
   /* identical to box height */
   color: #FFFFFF;
-  margin: 0 auto;;
+  margin: 0 auto;
+  ;
 }
 
 h2 {
@@ -58,8 +59,8 @@ h5 {
   font-size: 14px;
   letter-spacing: 2.35;
 }
-/* Typography */
 
+/* Typography */
 /* Nav Bar */
 nav {
   /* line-height: 80px; */
@@ -67,7 +68,6 @@ nav {
   grid-template-columns: 40% 60%;
   grid-gap: 20px;
   padding-top: 50px;
-
 }
 
 .nav-links {
@@ -75,15 +75,24 @@ nav {
   top: 40px;
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(81.5485px);
-
 }
 
-hr {
+hr.top-nav {
   position: absolute;
   width: 24%;
   height: 1px;
   left: 20%;
   top: 78px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+hr.mini-nav {
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 95%;
   background: #FFFFFF;
   mix-blend-mode: normal;
   opacity: 0.25;
@@ -95,6 +104,18 @@ nav div ul li {
   margin-right: 30px;
 }
 
+div ul li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 30px;
+}
+
+div ul {
+
+}
+
+
+
 nav div ul {
   float: right;
   margin-right: 20%;
@@ -104,7 +125,7 @@ div.active-home {
   position: absolute;
   width: 70px;
   height: 3px;
-  left: 255px;
+  left: 135px;
   top: 54px;
   background: #FFFFFF;
 }
@@ -113,8 +134,17 @@ div.active-destination {
   position: absolute;
   width: 110px;
   height: 3px;
-  left: 351px;
+  left: 270px;
   top: 54px;
+  background: #FFFFFF;
+}
+
+div.active-planet {
+  position: absolute;
+  width: 40px;
+  height: 3px;
+  left: 41px;
+  top: 42px;
   background: #FFFFFF;
 }
 
@@ -124,16 +154,22 @@ div.active-destination {
 }
 
 /* Nav Bar */
-
 .intro-text {
   line-height: 1;
 }
 
-.explore{
+.destination-nav {
+position: absolute;
+left: 60%;
+width: 460px;
+top: 40%
+
+}
+
+.explore {
   text-align: center;
   padding-top: 30%;
   color: black;
-
 }
 
 .right-bg {
@@ -144,7 +180,6 @@ div.active-destination {
   height: 274px;
   width: 274px;
   border-radius: 200px;
-
 }
 
 .left-bg {
@@ -154,13 +189,12 @@ div.active-destination {
   width: 450px;
   height: 400px;
   padding-top: 13%;
-
 }
 
 .moon {
-position: absolute;
-top: 35%;
-left: 20%;
+  position: absolute;
+  top: 35%;
+  left: 20%;
 }
 
 .Nav-items {
